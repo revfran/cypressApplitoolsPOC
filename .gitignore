@@ -1,0 +1,13 @@
+# Editor directories and files
+.vscode
+
+# node
+node_modules
+
+# yarn v2
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions

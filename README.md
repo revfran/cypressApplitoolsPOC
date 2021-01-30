@@ -24,13 +24,12 @@ Web site targeted was a sample book store https://demoqa.com/books
 
 # How to run tests in browserstack
 
-1. Set APPLITOOLS_API_KEY variable (GitHub account required to register)
+1. Set APPLITOOLS_API_KEY variable in [applitools config file](./applitools.config.js)
+2. Set username and access_key variables in [browserstack config file](./browserstack.json)
 
-2. `yarn browserstack-cypress run --sync --specs "cypress/integration/book_store.spec.js"`
+3. `yarn browserstack-cypress run --sync --specs "cypress/integration/book_store.spec.js"`
    
-# Run multiple spec files
-
-
+NOTE: I could not achieve to run from Windows, getting NPM_INSTALL_FAILED error, related to formatting of package.json
 
 # Sample reports
 

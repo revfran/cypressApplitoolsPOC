@@ -1,6 +1,12 @@
 # Editor directories and files
 .vscode
 
+# BrowserStack module logs
+log
+
+# Video reports
+videos
+
 # node
 node_modules
 
